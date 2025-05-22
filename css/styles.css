@@ -75,7 +75,6 @@ h2 {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
 }
 
 .page-header {
@@ -83,8 +82,6 @@ h2 {
 }
 
 .menu-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
   padding-left: 76px;
   display: flex;
   gap: 40px;
@@ -240,6 +237,7 @@ h2 {
 
 .third-level-title {
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .text-info {
@@ -297,7 +295,7 @@ h2 {
 .portfolio-list {
   display: flex;
   flex-direction: row;
-  row-gap: 48px;
+  column-gap: 48px;
   flex-wrap: wrap;
 }
 
@@ -307,13 +305,13 @@ h2 {
 }
 
 .four-level-title {
-  padding-bottom: 8px;
   text-align: left;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .footer {
   background-color: #2e2f42;
@@ -321,9 +319,10 @@ h2 {
   padding-bottom: 100px;
 }
 
-.studio {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  padding: 0;
 }
 
 .studio-footer {
@@ -340,4 +339,9 @@ h2 {
 
 .section {
   padding: 120px 0;
+}
+
+.text-block {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
