@@ -135,15 +135,16 @@ h2 {
 
 .visually-hidden {
   position: absolute;
+  width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  white-space: nowrap;
   border: 0;
-  width: 1px;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .link {
   font-weight: 500;
@@ -175,12 +176,13 @@ h2 {
   color: #404bbf;
 }
 .hero-section {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
 .main-header {
   color: #ffffff;
-  width: 495px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -227,6 +229,10 @@ h2 {
   text-align: left;
 }
 
+.feature-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .third-level-title {
   margin-bottom: 8px;
 }
@@ -265,6 +271,7 @@ h2 {
 
 .team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .imag-team {
