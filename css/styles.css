@@ -88,11 +88,12 @@ h2 {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-}
-
-.nav-item {
   padding: 24px 0;
 }
+
+/* .nav-item {
+  padding: 24px 0;
+} */
 
 .info-contacts {
   padding-top: 24px;
