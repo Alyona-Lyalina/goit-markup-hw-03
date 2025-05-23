@@ -236,6 +236,7 @@ h2 {
 }
 
 .third-level-title {
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -257,7 +258,6 @@ h2 {
 }
 
 .team-container {
-  margin-bottom: 8px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
